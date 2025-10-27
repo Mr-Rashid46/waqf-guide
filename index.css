@@ -1,0 +1,29 @@
+/* styles.css */
+
+/* Custom Font - Highly Recommended for Professional Look */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Ensure the background color for the card footer is distinct */
+.bg-info.text-white h4,
+.bg-secondary.text-white h4 {
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Hover effect for the main action button */
+.btn-action:hover {
+    background-color: #ffc47c; /* Lighter shade on hover */
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+
+/* Make section titles stand out more on larger screens */
+@media (min-width: 768px) {
+    .section-title {
+        font-size: 2.2rem;
+    }
+}
